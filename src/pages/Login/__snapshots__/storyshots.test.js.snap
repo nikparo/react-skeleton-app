@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Login Main 1`] = `
+<form
+  className="sc-crHmcD hsncMt"
+  onSubmit={[Function]}
+>
+  <label
+    className="sc-iqseJM hKdtqr"
+  >
+    <span>
+      Name:
+    </span>
+    <input
+      className="sc-hKwDye ivQcNy"
+      name="name"
+      onChange={[Function]}
+      placeholder="Your name"
+      type="text"
+      value=""
+    />
+  </label>
+  <label
+    className="sc-iqseJM hKdtqr"
+  >
+    <span>
+      Email:
+    </span>
+    <input
+      className="sc-hKwDye ivQcNy"
+      name="email"
+      onChange={[Function]}
+      placeholder="Your email"
+      type="email"
+      value=""
+    />
+  </label>
+  <button
+    className="sc-dkPtRN kKnTFd"
+    type="submit"
+  >
+    Login
+  </button>
+</form>
+`;
+
+exports[`Storyshots Login/UI UI 1`] = `
+<form
+  className="sc-crHmcD hsncMt"
+>
+  <label
+    className="sc-iqseJM hKdtqr"
+  >
+    <span>
+      Name:
+    </span>
+    <input
+      className="sc-hKwDye ivQcNy"
+      name="name"
+      placeholder="Your name"
+      type="text"
+      value="Sam"
+    />
+  </label>
+  <label
+    className="sc-iqseJM hKdtqr"
+  >
+    <span>
+      Email:
+    </span>
+    <input
+      className="sc-hKwDye ivQcNy"
+      name="email"
+      placeholder="Your email"
+      type="email"
+      value="sam@example.com"
+    />
+  </label>
+  <button
+    className="sc-dkPtRN kKnTFd"
+    type="submit"
+  >
+    Login
+  </button>
+</form>
+`;
