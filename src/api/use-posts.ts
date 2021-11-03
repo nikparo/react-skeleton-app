@@ -2,7 +2,7 @@ import useSWR from 'swr';
 import { Post } from './data-interfaces';
 import { notEmpty } from './helpers';
 
-const pageCount = 9;
+const pageCount = 10;
 
 interface SingleResponse {
   data?: {

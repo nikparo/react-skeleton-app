@@ -1,6 +1,6 @@
 import { ComponentStory, ComponentMeta } from '@storybook/react';
 
-import Authors from '.';
+import Authors from './Authors';
 
 export default {
   title: 'Authors',
