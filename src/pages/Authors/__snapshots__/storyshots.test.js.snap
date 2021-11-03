@@ -1,0 +1,192 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Authors Main 1`] = `
+<div
+  className="sc-gsDKAQ iJqAtc"
+>
+  <nav
+    className="sc-jrQzAO ehfRWL"
+  >
+    <div
+      className="sc-gsDKAQ iJqAtc"
+    >
+      <input
+        className="sc-hKwDye ivQcNy"
+        onChange={[Function]}
+        placeholder="Fuzzy author filter..."
+        style={
+          Object {
+            "flex": "1 1 auto",
+          }
+        }
+        type="text"
+        value=""
+      />
+      <button
+        className="sc-dkPtRN kKnTFd"
+        disabled={true}
+        onClick={[Function]}
+        type="button"
+      >
+        X
+      </button>
+    </div>
+    <ul
+      className="sc-eCImPb jrNcHt"
+    >
+      <li
+        className="sc-jRQBWg jLxfDb"
+      >
+        No authors found
+      </li>
+    </ul>
+  </nav>
+  <div
+    className="sc-kDTinF jRSqQa"
+  >
+    <div
+      className="sc-gsDKAQ iJqAtc"
+    >
+      <button
+        className="sc-dkPtRN kKnTFd"
+        onClick={[Function]}
+        title="Order descending"
+      >
+        ↑
+      </button>
+      <button
+        className="sc-dkPtRN kKnTFd"
+        onClick={[Function]}
+        title="Order ascending"
+      >
+        ↓
+      </button>
+      <div
+        style={
+          Object {
+            "flex": "1 1 auto",
+          }
+        }
+      />
+      <input
+        className="sc-hKwDye ivQcNy"
+        onChange={[Function]}
+        placeholder="Fuzzy post filter..."
+        type="text"
+        value=""
+      />
+      <button
+        className="sc-dkPtRN kKnTFd"
+        disabled={true}
+        onClick={[Function]}
+        type="button"
+      >
+        X
+      </button>
+    </div>
+    <p
+      className="sc-bdvvtL iIgXNb"
+    >
+      Select an author to view their posts
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Authors/UI UI 1`] = `
+<div
+  className="sc-gsDKAQ iJqAtc"
+>
+  <nav
+    className="sc-jrQzAO ehfRWL"
+  >
+    <div
+      className="sc-gsDKAQ iJqAtc"
+    >
+      <input
+        className="sc-hKwDye ivQcNy"
+        onChange={[Function]}
+        placeholder="Fuzzy author filter..."
+        style={
+          Object {
+            "flex": "1 1 auto",
+          }
+        }
+        type="text"
+        value="Sam"
+      />
+      <button
+        className="sc-dkPtRN kKnTFd"
+        disabled={false}
+        onClick={[Function]}
+        type="button"
+      >
+        X
+      </button>
+    </div>
+    <ul
+      className="sc-eCImPb jrNcHt"
+    >
+      <li
+        className="sc-jRQBWg jLxfDb"
+      >
+        No authors found
+      </li>
+    </ul>
+  </nav>
+  <div
+    className="sc-kDTinF jRSqQa"
+  >
+    <div
+      className="sc-gsDKAQ iJqAtc"
+    >
+      <button
+        className="sc-dkPtRN kKnTFd"
+        onClick={[Function]}
+        title="Order descending"
+      >
+        ↑
+      </button>
+      <button
+        className="sc-dkPtRN kKnTFd"
+        onClick={[Function]}
+        title="Order ascending"
+      >
+        ↓
+      </button>
+      <div
+        style={
+          Object {
+            "flex": "1 1 auto",
+          }
+        }
+      />
+      <input
+        className="sc-hKwDye ivQcNy"
+        onChange={[Function]}
+        placeholder="Fuzzy post filter..."
+        type="text"
+        value=""
+      />
+      <button
+        className="sc-dkPtRN kKnTFd"
+        disabled={true}
+        onClick={[Function]}
+        type="button"
+      >
+        X
+      </button>
+    </div>
+    <p
+      className="sc-gKclnd fpuXWz"
+    >
+      Error fetching posts
+    </p>
+    <p
+      className="sc-bdvvtL iIgXNb"
+    >
+      Select an author to view their posts
+    </p>
+  </div>
+</div>
+`;
