@@ -1,3 +1,31 @@
+# React Skeleton App
+
+I think this project is still lacking a few tests and some polish to be considered "production" quality, but I've already spent too much time and I have to stop somewhere...
+
+Run it with **`npm start`**
+
+or preview it on **Github Pages**: https://nikparo.github.io/react-skeleton-app/ \
+(Warning: Reloading the page results in a 404 due to dynamic routing)
+
+
+### It comes with:
+
+- [Storybook](https://www.npmjs.com/package/@storybook/react) for browsing and manually testing components. **`npm test`**
+  - `Login` and `Authors` only, unfortunately.
+- [Jest](https://www.npmjs.com/package/jest) for unit tests and components snapshots through [Storyshots](https://storybook.js.org/addons/@storybook/addon-storyshots). **`npm run storybook`**
+- [React-Router v6](https://github.com/remix-run/react-router) (beta) for routing.
+- `styled-components` for css-in-js styling. (I would have gone with [Linaria](https://www.npmjs.com/package/linaria) but create-react-app doesn't seem to like it.)
+- [SWR](https://www.npmjs.com/package/swr) for data loading
+
+\
+\
+\
+\
+\.
+---
+
+Standard CRA documentation below:
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
